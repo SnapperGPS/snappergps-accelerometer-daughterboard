@@ -8078,7 +8078,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <label x="121.92" y="63.5" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SDO" class="0">
+<net name="SAO" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="SDO"/>
 <wire x1="104.14" y1="48.26" x2="104.14" y2="33.02" width="0.1524" layer="91"/>
@@ -8124,13 +8124,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </sheet>
 </sheets>
 <errors>
-<approved hash="102,1,43.18,162.56,OUT,3.3V,,,,"/>
 <approved hash="102,1,88.9,68.58,VDDIO,3.3V,,,,"/>
 <approved hash="102,1,106.68,78.74,VDD,3.3V,,,,"/>
-<approved hash="104,1,22.86,162.56,U2,IN,VCC,,,"/>
-<approved hash="113,1,106.917,117.036,JP3,,,,,"/>
-<approved hash="113,1,133.35,119.659,JP2,,,,,"/>
-<approved hash="113,1,115.595,27.94,SJ1,,,,,"/>
 </errors>
 </schematic>
 </drawing>
