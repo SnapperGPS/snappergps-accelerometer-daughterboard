@@ -7886,6 +7886,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="R32" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10K"/>
 <part name="R34" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10K"/>
 <part name="U$3" library="microbuilder" deviceset="GND" device=""/>
+<part name="U$5" library="microbuilder" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7958,6 +7959,9 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <instance part="U$3" gate="G$1" x="111.76" y="104.14" smashed="yes">
 <attribute name="VALUE" x="110.236" y="101.6" size="1.27" layer="96"/>
 </instance>
+<instance part="U$5" gate="G$1" x="66.04" y="53.34" smashed="yes">
+<attribute name="VALUE" x="64.516" y="50.8" size="1.27" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -7983,6 +7987,17 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="U$3" gate="G$1" pin="GND"/>
 <pinref part="U$1" gate="G$1" pin="1"/>
 <wire x1="111.76" y1="106.68" x2="111.76" y2="109.22" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U$5" gate="G$1" pin="GND"/>
+<wire x1="66.04" y1="55.88" x2="66.04" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="NC@1"/>
+<wire x1="88.9" y1="66.04" x2="86.36" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="66.04" x2="86.36" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="U1" gate="G$1" pin="NC@2"/>
+<wire x1="86.36" y1="63.5" x2="88.9" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="66.04" y1="66.04" x2="86.36" y2="66.04" width="0.1524" layer="91"/>
+<junction x="86.36" y="66.04"/>
 </segment>
 </net>
 <net name="SCL_3V" class="0">
