@@ -410,30 +410,6 @@ round, layers 1 + 16 + 21 + 39 + 49</description>
 <package name="MOUNTINGHOLE_3.0_NPH">
 <hole x="0" y="0" drill="3"/>
 </package>
-<package name="SOT363">
-<description>&lt;b&gt;Source:&lt;/b&gt; http://www.nxp.com/documents/data_sheet/2N7002PS.pdf</description>
-<wire x1="1" y1="0.625" x2="1" y2="-0.625" width="0.2032" layer="51"/>
-<wire x1="1" y1="-0.625" x2="-1" y2="-0.625" width="0.2032" layer="51"/>
-<wire x1="-1" y1="-0.625" x2="-1" y2="0.625" width="0.2032" layer="51"/>
-<wire x1="-1" y1="0.625" x2="1" y2="0.625" width="0.2032" layer="51"/>
-<wire x1="-1.1" y1="0.45" x2="-1.1" y2="-0.45" width="0.2032" layer="21"/>
-<wire x1="1.1" y1="0.45" x2="1.1" y2="-0.45" width="0.2032" layer="21"/>
-<circle x="-1.5" y="-0.35" radius="0.1" width="0.2032" layer="21"/>
-<smd name="1" x="-0.75" y="-0.9" dx="0.5" dy="0.5" layer="1"/>
-<smd name="2" x="0" y="-0.9" dx="0.4" dy="0.5" layer="1"/>
-<smd name="3" x="0.75" y="-0.9" dx="0.5" dy="0.5" layer="1"/>
-<smd name="4" x="0.75" y="0.9" dx="0.5" dy="0.5" layer="1"/>
-<smd name="5" x="0" y="0.9" dx="0.4" dy="0.5" layer="1"/>
-<smd name="6" x="-0.75" y="0.9" dx="0.5" dy="0.5" layer="1"/>
-<text x="1.651" y="0.127" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
-<text x="1.651" y="-0.508" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-0.125" y1="-1.05" x2="0.125" y2="-0.7" layer="51"/>
-<rectangle x1="-0.775" y1="-1.05" x2="-0.525" y2="-0.7" layer="51"/>
-<rectangle x1="0.525" y1="-1.05" x2="0.775" y2="-0.7" layer="51"/>
-<rectangle x1="-0.775" y1="0.7" x2="-0.525" y2="1.05" layer="51"/>
-<rectangle x1="-0.125" y1="0.7" x2="0.125" y2="1.05" layer="51"/>
-<rectangle x1="0.525" y1="0.7" x2="0.775" y2="1.05" layer="51"/>
-</package>
 <package name="1X06_OVAL">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <wire x1="-7.62" y1="0.635" x2="-7.62" y2="-0.635" width="0.2032" layer="51"/>
@@ -1077,46 +1053,6 @@ Righ-Angle SMT</description>
 <text x="0" y="0" size="1.016" layer="96" font="vector" ratio="15" align="center">&gt;VALUE</text>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-</symbol>
-<symbol name="MOSFET-N">
-<wire x1="0.762" y1="0.762" x2="0.762" y2="0" width="0.254" layer="94"/>
-<wire x1="0.762" y1="0" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
-<wire x1="0.762" y1="3.175" x2="0.762" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0.762" y1="2.54" x2="0.762" y2="1.905" width="0.254" layer="94"/>
-<wire x1="0.762" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="0.762" y1="-1.905" x2="0.762" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="0.762" y1="-2.54" x2="0.762" y2="-3.175" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="0.762" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="3.81" y1="2.54" x2="3.81" y2="0.508" width="0.1524" layer="94"/>
-<wire x1="3.81" y1="0.508" x2="3.81" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-2.54" x2="3.81" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="0.762" y1="2.54" x2="3.81" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="4.572" y1="0.762" x2="4.318" y2="0.508" width="0.1524" layer="94"/>
-<wire x1="4.318" y1="0.508" x2="3.81" y2="0.508" width="0.1524" layer="94"/>
-<wire x1="3.81" y1="0.508" x2="3.302" y2="0.508" width="0.1524" layer="94"/>
-<wire x1="3.302" y1="0.508" x2="3.048" y2="0.254" width="0.1524" layer="94"/>
-<circle x="2.54" y="-2.54" radius="0.3592" width="0" layer="94"/>
-<circle x="2.54" y="2.54" radius="0.3592" width="0" layer="94"/>
-<text x="5.08" y="0.635" size="1.27" layer="95">&gt;NAME</text>
-<text x="5.08" y="-1.27" size="1.27" layer="96">&gt;VALUE</text>
-<text x="3.175" y="3.175" size="0.8128" layer="93">D</text>
-<text x="3.175" y="-3.81" size="0.8128" layer="93">S</text>
-<text x="-1.27" y="-1.905" size="0.8128" layer="93">G</text>
-<pin name="G" x="-2.54" y="-2.54" visible="pad" length="short"/>
-<pin name="S" x="2.54" y="-5.08" visible="pad" length="short" rot="R90"/>
-<pin name="D" x="2.54" y="5.08" visible="pad" length="short" rot="R270"/>
-<polygon width="0.1524" layer="94">
-<vertex x="3.81" y="0.508"/>
-<vertex x="3.302" y="-0.254"/>
-<vertex x="4.318" y="-0.254"/>
-</polygon>
-<polygon width="0.1524" layer="94">
-<vertex x="1.016" y="0"/>
-<vertex x="2.032" y="0.762"/>
-<vertex x="2.032" y="-0.762"/>
-</polygon>
 </symbol>
 <symbol name="3.3V">
 <wire x1="-1.27" y1="-1.27" x2="0" y2="0" width="0.254" layer="94"/>
@@ -4301,32 +4237,6 @@ Righ-Angle SMT</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MOSFET-N_DUAL" prefix="Q" uservalue="yes">
-<description>&lt;b&gt;Dual N-Channel MOSFET&lt;/b&gt;
-&lt;p&gt;&lt;b&gt;SOT363&lt;/b&gt; (2.0x1.25mm)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;2N7002PS - 60V, 320mA [Digikey: 568-5984-1-ND]&lt;/li&gt;
-&lt;/ul&gt;</description>
-<gates>
-<gate name="1" symbol="MOSFET-N" x="-12.7" y="0" swaplevel="1"/>
-<gate name="2" symbol="MOSFET-N" x="10.16" y="0" swaplevel="1"/>
-</gates>
-<devices>
-<device name="" package="SOT363">
-<connects>
-<connect gate="1" pin="D" pad="6"/>
-<connect gate="1" pin="G" pad="2"/>
-<connect gate="1" pin="S" pad="1"/>
-<connect gate="2" pin="D" pad="3"/>
-<connect gate="2" pin="G" pad="5"/>
-<connect gate="2" pin="S" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="HEADER-1X6" prefix="JP" uservalue="yes">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <gates>
@@ -4950,9 +4860,6 @@ Righ-Angle SMT</description>
 <part name="U$7" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="U$24" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="R3" library="microbuilder" deviceset="RESISTOR_4PACK" device="" value="10K"/>
-<part name="Q2" library="microbuilder" deviceset="MOSFET-N_DUAL" device="" value="BSS138"/>
-<part name="U$26" library="microbuilder" deviceset="3.3V" device=""/>
-<part name="U$23" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="U$1" library="microbuilder" deviceset="MOUNTINGHOLE" device="2.5"/>
 <part name="U$17" library="microbuilder" deviceset="MOUNTINGHOLE" device="2.5"/>
 <part name="CONN3" library="microbuilder" deviceset="STEMMA_I2C" device="_QT"/>
@@ -4962,8 +4869,6 @@ Righ-Angle SMT</description>
 <part name="FID4" library="microbuilder" deviceset="FIDUCIAL" device="_1MM"/>
 <part name="U$19" library="microbuilder" deviceset="MOUNTINGHOLE" device="2.5"/>
 <part name="U$21" library="microbuilder" deviceset="MOUNTINGHOLE" device="2.5"/>
-<part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
-<part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="U1" library="microbuilder" deviceset="ACCEL_LIS3DHTR" device="" value="LIS3DHTR"/>
 <part name="U$2" library="microbuilder" deviceset="GND" device=""/>
 <part name="U$4" library="microbuilder" deviceset="GND" device=""/>
@@ -4987,7 +4892,7 @@ Righ-Angle SMT</description>
 <sheet>
 <plain>
 <wire x1="2.54" y1="132.08" x2="68.58" y2="132.08" width="0.1524" layer="94" style="shortdash"/>
-<text x="93.98" y="134.62" size="2.1844" layer="94" ratio="7">I2C Pullups &amp; Shift</text>
+<text x="93.98" y="134.62" size="2.1844" layer="94" ratio="7">I2C Pullups</text>
 <text x="193.04" y="134.62" size="2.1844" layer="94" ratio="7">STEMMA/I2C Headers</text>
 <wire x1="68.58" y1="132.08" x2="88.9" y2="132.08" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="88.9" y1="132.08" x2="190.5" y2="132.08" width="0.1524" layer="94" style="shortdash"/>
@@ -4996,9 +4901,6 @@ Righ-Angle SMT</description>
 <wire x1="190.5" y1="175.26" x2="190.5" y2="132.08" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="88.9" y1="175.26" x2="88.9" y2="132.08" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="68.58" y1="175.26" x2="68.58" y2="132.08" width="0.1524" layer="94" style="shortdash"/>
-<text x="137.16" y="147.32" size="1.778" layer="91">G</text>
-<text x="142.24" y="139.7" size="1.778" layer="91">S</text>
-<text x="132.08" y="139.7" size="1.778" layer="91">D</text>
 <text x="177.8" y="76.2" size="1.778" layer="97">I2C</text>
 <text x="162.56" y="71.12" size="1.778" layer="97">SCL (Pin 4) = Serial Clock</text>
 <text x="162.56" y="68.58" size="1.778" layer="97">SDA (Pin 6) = Serial Data</text>
@@ -5048,34 +4950,6 @@ Righ-Angle SMT</description>
 <instance part="R3" gate="G$2" x="157.48" y="160.02" smashed="yes" rot="MR270">
 <attribute name="NAME" x="154.94" y="160.02" size="1.27" layer="95" font="vector" rot="MR270" align="center"/>
 <attribute name="VALUE" x="157.48" y="160.02" size="1.016" layer="96" font="vector" ratio="15" rot="MR270" align="center"/>
-</instance>
-<instance part="Q2" gate="1" x="137.16" y="144.78" smashed="yes" rot="MR270">
-<attribute name="NAME" x="136.525" y="139.7" size="1.27" layer="95" rot="MR270"/>
-<attribute name="VALUE" x="138.43" y="139.7" size="1.27" layer="96" rot="MR270"/>
-</instance>
-<instance part="Q2" gate="2" x="147.32" y="154.94" smashed="yes" rot="MR270">
-<attribute name="NAME" x="146.685" y="149.86" size="1.27" layer="95" rot="MR270"/>
-<attribute name="VALUE" x="148.59" y="149.86" size="1.27" layer="96" rot="MR270"/>
-</instance>
-<instance part="U$26" gate="G$1" x="139.7" y="170.18" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="141.224" y="171.196" size="1.27" layer="96" rot="MR0"/>
-</instance>
-<instance part="U$23" gate="G$1" x="149.86" y="170.18" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="151.384" y="171.196" size="1.27" layer="96" rot="MR0"/>
-</instance>
-<instance part="R3" gate="G$3" x="129.54" y="160.02" smashed="yes" rot="R270">
-<attribute name="NAME" x="132.08" y="160.02" size="1.27" layer="95" font="vector" rot="R270" align="center"/>
-<attribute name="VALUE" x="129.54" y="160.02" size="1.016" layer="96" font="vector" ratio="15" rot="R270" align="center"/>
-</instance>
-<instance part="R3" gate="G$1" x="121.92" y="160.02" smashed="yes" rot="R270">
-<attribute name="NAME" x="124.46" y="160.02" size="1.27" layer="95" font="vector" rot="R270" align="center"/>
-<attribute name="VALUE" x="121.92" y="160.02" size="1.016" layer="96" font="vector" ratio="15" rot="R270" align="center"/>
-</instance>
-<instance part="P+1" gate="VCC" x="121.92" y="170.18" smashed="yes">
-<attribute name="VALUE" x="119.38" y="167.64" size="1.778" layer="96" rot="R90"/>
-</instance>
-<instance part="P+2" gate="VCC" x="129.54" y="170.18" smashed="yes">
-<attribute name="VALUE" x="127" y="167.64" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="U1" gate="G$1" x="104.14" y="63.5" smashed="yes">
 <attribute name="NAME" x="91.44" y="78.74" size="1.27" layer="95"/>
@@ -5192,15 +5066,6 @@ Righ-Angle SMT</description>
 <label x="220.98" y="149.86" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="132.08" y1="142.24" x2="121.92" y2="142.24" width="0.1524" layer="91"/>
-<label x="114.3" y="142.24" size="1.778" layer="95" rot="MR0"/>
-<pinref part="Q2" gate="1" pin="D"/>
-<pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="121.92" y1="142.24" x2="104.14" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="154.94" x2="121.92" y2="142.24" width="0.1524" layer="91"/>
-<junction x="121.92" y="142.24"/>
-</segment>
-<segment>
 <wire x1="106.68" y1="114.3" x2="88.9" y2="114.3" width="0.1524" layer="91"/>
 <label x="88.9" y="114.3" size="1.778" layer="95"/>
 <pinref part="JP3" gate="A" pin="4"/>
@@ -5212,15 +5077,6 @@ Righ-Angle SMT</description>
 <pinref part="CONN3" gate="G$1" pin="SDA"/>
 <wire x1="238.76" y1="152.4" x2="205.74" y2="152.4" width="0.1524" layer="91"/>
 <label x="220.98" y="152.4" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="142.24" y1="152.4" x2="129.54" y2="152.4" width="0.1524" layer="91"/>
-<label x="114.3" y="152.4" size="1.778" layer="95" rot="MR0"/>
-<pinref part="Q2" gate="2" pin="D"/>
-<pinref part="R3" gate="G$3" pin="2"/>
-<wire x1="129.54" y1="152.4" x2="104.14" y2="152.4" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="154.94" x2="129.54" y2="152.4" width="0.1524" layer="91"/>
-<junction x="129.54" y="152.4"/>
 </segment>
 <segment>
 <wire x1="106.68" y1="111.76" x2="88.9" y2="111.76" width="0.1524" layer="91"/>
@@ -5236,16 +5092,6 @@ Righ-Angle SMT</description>
 <label x="220.98" y="154.94" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="121.92" y1="167.64" x2="121.92" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="P+1" gate="VCC" pin="VCC"/>
-</segment>
-<segment>
-<pinref part="R3" gate="G$3" pin="1"/>
-<wire x1="129.54" y1="165.1" x2="129.54" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="P+2" gate="VCC" pin="VCC"/>
-</segment>
-<segment>
 <wire x1="106.68" y1="121.92" x2="96.52" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="121.92" x2="96.52" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="JP3" gate="A" pin="1"/>
@@ -5254,13 +5100,10 @@ Righ-Angle SMT</description>
 </net>
 <net name="SCL_3V" class="0">
 <segment>
-<wire x1="142.24" y1="142.24" x2="157.48" y2="142.24" width="0.1524" layer="91"/>
 <label x="180.34" y="142.24" size="1.778" layer="95" rot="MR0"/>
 <wire x1="157.48" y1="142.24" x2="180.34" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="157.48" y1="154.94" x2="157.48" y2="142.24" width="0.1524" layer="91"/>
-<junction x="157.48" y="142.24"/>
 <pinref part="R3" gate="G$2" pin="2"/>
-<pinref part="Q2" gate="1" pin="S"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="SCL"/>
@@ -5270,13 +5113,10 @@ Righ-Angle SMT</description>
 </net>
 <net name="SDA_3V" class="0">
 <segment>
-<wire x1="152.4" y1="152.4" x2="165.1" y2="152.4" width="0.1524" layer="91"/>
 <label x="180.34" y="152.4" size="1.778" layer="95" rot="MR0"/>
 <wire x1="165.1" y1="152.4" x2="180.34" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="154.94" x2="165.1" y2="152.4" width="0.1524" layer="91"/>
-<junction x="165.1" y="152.4"/>
 <pinref part="R3" gate="G$4" pin="2"/>
-<pinref part="Q2" gate="2" pin="S"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="SDA"/>
@@ -5291,19 +5131,9 @@ Righ-Angle SMT</description>
 <pinref part="R3" gate="G$4" pin="1"/>
 </segment>
 <segment>
-<pinref part="U$26" gate="G$1" pin="3.3V"/>
-<wire x1="139.7" y1="147.32" x2="139.7" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="Q2" gate="1" pin="G"/>
-</segment>
-<segment>
 <pinref part="U$24" gate="G$1" pin="3.3V"/>
 <wire x1="157.48" y1="165.1" x2="157.48" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$2" pin="1"/>
-</segment>
-<segment>
-<wire x1="149.86" y1="157.48" x2="149.86" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="Q2" gate="2" pin="G"/>
-<pinref part="U$23" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="VDD"/>
