@@ -7885,6 +7885,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <part name="U$1" library="TestBoard_2_2_LiPo" deviceset="ALEX_CONN5" device=""/>
 <part name="R32" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10K"/>
 <part name="R34" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="10K"/>
+<part name="U$3" library="microbuilder" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -7954,6 +7955,9 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <attribute name="NAME" x="163.6014" y="156.21" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="168.402" y="156.21" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="U$3" gate="G$1" x="111.76" y="104.14" smashed="yes">
+<attribute name="VALUE" x="110.236" y="101.6" size="1.27" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -7975,6 +7979,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="129.54" y1="66.04" x2="129.54" y2="60.96" width="0.1524" layer="91"/>
 <junction x="129.54" y="60.96"/>
 </segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="GND"/>
+<pinref part="U$1" gate="G$1" pin="1"/>
+<wire x1="111.76" y1="106.68" x2="111.76" y2="109.22" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="SCL_3V" class="0">
 <segment>
@@ -7988,6 +7997,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="88.9" y1="60.96" x2="73.66" y2="60.96" width="0.1524" layer="91"/>
 <label x="73.66" y="60.96" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="3"/>
+<wire x1="106.68" y1="109.22" x2="106.68" y2="96.52" width="0.1524" layer="91"/>
+<label x="106.68" y="96.52" size="1.778" layer="95" rot="R90"/>
+</segment>
 </net>
 <net name="SDA_3V" class="0">
 <segment>
@@ -8000,6 +8014,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="U1" gate="G$1" pin="SDA"/>
 <wire x1="101.6" y1="48.26" x2="101.6" y2="33.02" width="0.1524" layer="91"/>
 <label x="101.6" y="33.02" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="2"/>
+<wire x1="109.22" y1="109.22" x2="109.22" y2="96.52" width="0.1524" layer="91"/>
+<label x="109.22" y="96.52" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="3.3V" class="2">
@@ -8031,6 +8050,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="134.62" y1="38.1" x2="106.68" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="134.62" y1="38.1" x2="134.62" y2="50.8" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="5"/>
+<wire x1="101.6" y1="109.22" x2="101.6" y2="96.52" width="0.1524" layer="91"/>
+<label x="101.6" y="96.52" size="1.778" layer="95" rot="R90"/>
+</segment>
 </net>
 <net name="INT1" class="0">
 <segment>
@@ -8044,6 +8068,11 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <pinref part="U1" gate="G$1" pin="SDO"/>
 <wire x1="104.14" y1="48.26" x2="104.14" y2="33.02" width="0.1524" layer="91"/>
 <label x="104.14" y="33.02" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="4"/>
+<wire x1="104.14" y1="109.22" x2="104.14" y2="96.52" width="0.1524" layer="91"/>
+<label x="104.14" y="96.52" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="ADC1" class="0">
