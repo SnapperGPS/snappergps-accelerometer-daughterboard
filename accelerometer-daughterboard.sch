@@ -649,54 +649,6 @@ round, layers 1 + 16 + 21 + 39 + 49</description>
 <rectangle x1="-6.604" y1="-0.254" x2="-6.096" y2="0.254" layer="51"/>
 <rectangle x1="6.096" y1="-0.254" x2="6.604" y2="0.254" layer="51"/>
 </package>
-<package name="JSTPH4">
-<description>4 Pin JST PH Series Female Connector&lt;br/&gt;
-Righ-Angle SMT</description>
-<wire x1="-6" y1="3" x2="6" y2="3" width="0.2032" layer="51"/>
-<wire x1="6" y1="3" x2="6" y2="-4.5" width="0.2032" layer="51"/>
-<wire x1="-6" y1="-4.5" x2="-6" y2="3" width="0.2032" layer="51"/>
-<wire x1="5" y1="-2" x2="-5" y2="-2" width="0.2032" layer="51"/>
-<wire x1="-5" y1="-2" x2="-5" y2="-4.5" width="0.2032" layer="51"/>
-<wire x1="-5" y1="-4.5" x2="-6" y2="-4.5" width="0.2032" layer="51"/>
-<wire x1="6" y1="-4.5" x2="5" y2="-4.5" width="0.2032" layer="51"/>
-<wire x1="5" y1="-4.5" x2="5" y2="-2" width="0.2032" layer="51"/>
-<wire x1="-4.5" y1="3" x2="4.5" y2="3" width="0.2032" layer="21"/>
-<wire x1="-6" y1="-0.5" x2="-6" y2="-4.5" width="0.2032" layer="21"/>
-<wire x1="-6" y1="-4.5" x2="-5" y2="-4.5" width="0.2032" layer="21"/>
-<wire x1="-5" y1="-4.5" x2="-5" y2="-2" width="0.2032" layer="21"/>
-<wire x1="-5" y1="-2" x2="-3.75" y2="-2" width="0.2032" layer="21"/>
-<wire x1="3.75" y1="-2" x2="5" y2="-2" width="0.2032" layer="21"/>
-<wire x1="5" y1="-2" x2="5" y2="-4.5" width="0.2032" layer="21"/>
-<wire x1="5" y1="-4.5" x2="6" y2="-4.5" width="0.2032" layer="21"/>
-<wire x1="6" y1="-4.5" x2="6" y2="-0.5" width="0.2032" layer="21"/>
-<smd name="1" x="-3" y="-3.7" dx="1" dy="4.6" layer="1"/>
-<smd name="2" x="-1" y="-3.7" dx="1" dy="4.6" layer="1"/>
-<smd name="NC1" x="-5.7" y="1.5" dx="3.4" dy="1.7" layer="1" rot="R90"/>
-<smd name="NC2" x="5.7" y="1.5" dx="3.4" dy="1.7" layer="1" rot="R90"/>
-<smd name="3" x="1" y="-3.7" dx="1" dy="4.6" layer="1"/>
-<smd name="4" x="3" y="-3.7" dx="1" dy="4.6" layer="1"/>
-<text x="-4.318" y="1.905" size="0.8128" layer="25" ratio="18">&gt;Name</text>
-<text x="-4.318" y="1.016" size="0.4064" layer="27" ratio="10">&gt;Value</text>
-</package>
-<package name="JST_SH4">
-<smd name="2" x="-0.5" y="2.514" dx="1.55" dy="0.6" layer="1" rot="R90"/>
-<smd name="3" x="0.5" y="2.514" dx="1.55" dy="0.6" layer="1" rot="R90"/>
-<smd name="1" x="-1.5" y="2.514" dx="1.55" dy="0.6" layer="1" rot="R90"/>
-<smd name="4" x="1.5" y="2.514" dx="1.55" dy="0.6" layer="1" rot="R90"/>
-<smd name="MT1" x="-2.8" y="-1.386" dx="1.8" dy="1.2" layer="1" rot="R90"/>
-<smd name="MT2" x="2.8" y="-1.386" dx="1.8" dy="1.2" layer="1" rot="R90"/>
-<wire x1="-3" y1="-2.086" x2="-3" y2="2.164" width="0.1524" layer="51"/>
-<wire x1="-3" y1="2.164" x2="3.1" y2="2.164" width="0.1524" layer="51"/>
-<wire x1="3.1" y1="2.164" x2="3.1" y2="-2.086" width="0.1524" layer="51"/>
-<wire x1="3.1" y1="-2.086" x2="-3" y2="-2.086" width="0.1524" layer="51"/>
-<wire x1="-3" y1="-0.386" x2="-3" y2="2.214" width="0.1524" layer="21"/>
-<wire x1="-3" y1="2.214" x2="-1.9" y2="2.214" width="0.1524" layer="21"/>
-<wire x1="1.9" y1="2.214" x2="3.1" y2="2.214" width="0.1524" layer="21"/>
-<wire x1="3.1" y1="2.214" x2="3.1" y2="-0.386" width="0.1524" layer="21"/>
-<wire x1="-2.1" y1="-2.086" x2="2.1" y2="-2.086" width="0.1524" layer="21"/>
-<text x="-4.6" y="3.614" size="1.016" layer="25">&gt;NAME</text>
-<text x="-3.33" y="-4.006" size="1.016" layer="27">JST SH 4</text>
-</package>
 <package name="LGA16_3X3MM">
 <wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.0508" layer="51"/>
 <wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.0508" layer="51"/>
@@ -1073,21 +1025,6 @@ Righ-Angle SMT</description>
 <pin name="4" x="-2.54" y="0" visible="pad" length="short" direction="pas" function="dot"/>
 <pin name="5" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" function="dot"/>
 <pin name="6" x="-2.54" y="-5.08" visible="pad" length="short" direction="pas" function="dot"/>
-</symbol>
-<symbol name="STEMMA_I2C">
-<wire x1="-3.81" y1="-5.08" x2="3.81" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="3.81" y1="-5.08" x2="3.81" y2="7.62" width="0.4064" layer="94"/>
-<wire x1="3.81" y1="7.62" x2="-3.81" y2="7.62" width="0.4064" layer="94"/>
-<wire x1="-3.81" y1="7.62" x2="-3.81" y2="-5.08" width="0.4064" layer="94"/>
-<text x="-3.81" y="8.255" size="1.778" layer="95">&gt;NAME</text>
-<text x="-3.81" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="GND" x="0" y="5.08" visible="pin" length="short" direction="pas" function="dot"/>
-<pin name="V+" x="0" y="2.54" visible="pin" length="short" direction="pas" function="dot"/>
-<pin name="SDA" x="0" y="0" visible="pin" length="short" direction="pas" function="dot"/>
-<pin name="SCL" x="0" y="-2.54" visible="pin" length="short" direction="pas" function="dot"/>
-</symbol>
-<symbol name="MOUNTING">
-<pin name="MT" x="0" y="0" length="middle"/>
 </symbol>
 <symbol name="FRAME_A4_ADAFRUIT">
 <wire x1="256.54" y1="3.81" x2="256.54" y2="8.89" width="0.1016" layer="94"/>
@@ -4362,41 +4299,6 @@ Righ-Angle SMT</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="STEMMA_I2C" prefix="CONN">
-<gates>
-<gate name="G$1" symbol="STEMMA_I2C" x="0" y="0"/>
-<gate name="G$2" symbol="MOUNTING" x="-15.24" y="5.08"/>
-<gate name="G$3" symbol="MOUNTING" x="-15.24" y="0"/>
-</gates>
-<devices>
-<device name="_RASMT" package="JSTPH4">
-<connects>
-<connect gate="G$1" pin="GND" pad="1"/>
-<connect gate="G$1" pin="SCL" pad="4"/>
-<connect gate="G$1" pin="SDA" pad="3"/>
-<connect gate="G$1" pin="V+" pad="2"/>
-<connect gate="G$2" pin="MT" pad="NC1"/>
-<connect gate="G$3" pin="MT" pad="NC2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="_QT" package="JST_SH4">
-<connects>
-<connect gate="G$1" pin="GND" pad="1"/>
-<connect gate="G$1" pin="SCL" pad="4"/>
-<connect gate="G$1" pin="SDA" pad="3"/>
-<connect gate="G$1" pin="V+" pad="2"/>
-<connect gate="G$2" pin="MT" pad="MT1"/>
-<connect gate="G$3" pin="MT" pad="MT2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="FRAME_A4_ADAFRUIT">
 <description>Frame A4</description>
 <gates>
@@ -4862,8 +4764,6 @@ Righ-Angle SMT</description>
 <part name="R3" library="microbuilder" deviceset="RESISTOR_4PACK" device="" value="10K"/>
 <part name="U$1" library="microbuilder" deviceset="MOUNTINGHOLE" device="2.5"/>
 <part name="U$17" library="microbuilder" deviceset="MOUNTINGHOLE" device="2.5"/>
-<part name="CONN3" library="microbuilder" deviceset="STEMMA_I2C" device="_QT"/>
-<part name="CONN4" library="microbuilder" deviceset="STEMMA_I2C" device="_QT"/>
 <part name="U$18" library="microbuilder" deviceset="FRAME_A4_ADAFRUIT" device=""/>
 <part name="FID3" library="microbuilder" deviceset="FIDUCIAL" device="_1MM"/>
 <part name="FID4" library="microbuilder" deviceset="FIDUCIAL" device="_1MM"/>
@@ -4893,7 +4793,6 @@ Righ-Angle SMT</description>
 <plain>
 <wire x1="2.54" y1="132.08" x2="68.58" y2="132.08" width="0.1524" layer="94" style="shortdash"/>
 <text x="93.98" y="134.62" size="2.1844" layer="94" ratio="7">I2C Pullups</text>
-<text x="193.04" y="134.62" size="2.1844" layer="94" ratio="7">STEMMA/I2C Headers</text>
 <wire x1="68.58" y1="132.08" x2="88.9" y2="132.08" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="88.9" y1="132.08" x2="190.5" y2="132.08" width="0.1524" layer="94" style="shortdash"/>
 <wire x1="190.5" y1="132.08" x2="256.54" y2="132.08" width="0.1524" layer="94" style="shortdash"/>
@@ -4920,14 +4819,6 @@ Righ-Angle SMT</description>
 <instances>
 <instance part="U$1" gate="G$1" x="243.84" y="22.86" smashed="yes"/>
 <instance part="U$17" gate="G$1" x="243.84" y="30.48" smashed="yes"/>
-<instance part="CONN3" gate="G$1" x="205.74" y="152.4" smashed="yes">
-<attribute name="NAME" x="201.93" y="160.655" size="1.778" layer="95"/>
-<attribute name="VALUE" x="201.93" y="144.78" size="1.778" layer="96"/>
-</instance>
-<instance part="CONN4" gate="G$1" x="238.76" y="152.4" smashed="yes">
-<attribute name="NAME" x="234.95" y="160.655" size="1.778" layer="95"/>
-<attribute name="VALUE" x="234.95" y="144.78" size="1.778" layer="96"/>
-</instance>
 <instance part="U$18" gate="G$1" x="0" y="0" smashed="yes">
 <attribute name="DRAWING_NAME" x="171.45" y="15.24" size="2.54" layer="94" font="vector"/>
 <attribute name="LAST_DATE_TIME" x="171.45" y="10.16" size="2.286" layer="94" font="vector"/>
@@ -5024,12 +4915,6 @@ Righ-Angle SMT</description>
 <nets>
 <net name="GND" class="1">
 <segment>
-<pinref part="CONN4" gate="G$1" pin="GND"/>
-<pinref part="CONN3" gate="G$1" pin="GND"/>
-<wire x1="238.76" y1="157.48" x2="205.74" y2="157.48" width="0.1524" layer="91"/>
-<label x="220.98" y="157.48" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U1" gate="G$1" pin="GND@1"/>
 <pinref part="U$2" gate="G$1" pin="GND"/>
 <wire x1="88.9" y1="58.42" x2="86.36" y2="58.42" width="0.1524" layer="91"/>
@@ -5060,12 +4945,6 @@ Righ-Angle SMT</description>
 </net>
 <net name="SCL" class="0">
 <segment>
-<pinref part="CONN4" gate="G$1" pin="SCL"/>
-<pinref part="CONN3" gate="G$1" pin="SCL"/>
-<wire x1="205.74" y1="149.86" x2="238.76" y2="149.86" width="0.1524" layer="91"/>
-<label x="220.98" y="149.86" size="1.778" layer="95"/>
-</segment>
-<segment>
 <wire x1="106.68" y1="114.3" x2="88.9" y2="114.3" width="0.1524" layer="91"/>
 <label x="88.9" y="114.3" size="1.778" layer="95"/>
 <pinref part="JP3" gate="A" pin="4"/>
@@ -5073,24 +4952,12 @@ Righ-Angle SMT</description>
 </net>
 <net name="SDA" class="0">
 <segment>
-<pinref part="CONN4" gate="G$1" pin="SDA"/>
-<pinref part="CONN3" gate="G$1" pin="SDA"/>
-<wire x1="238.76" y1="152.4" x2="205.74" y2="152.4" width="0.1524" layer="91"/>
-<label x="220.98" y="152.4" size="1.778" layer="95"/>
-</segment>
-<segment>
 <wire x1="106.68" y1="111.76" x2="88.9" y2="111.76" width="0.1524" layer="91"/>
 <label x="88.9" y="111.76" size="1.778" layer="95"/>
 <pinref part="JP3" gate="A" pin="5"/>
 </segment>
 </net>
 <net name="VCC" class="1">
-<segment>
-<pinref part="CONN3" gate="G$1" pin="V+"/>
-<pinref part="CONN4" gate="G$1" pin="V+"/>
-<wire x1="205.74" y1="154.94" x2="238.76" y2="154.94" width="0.1524" layer="91"/>
-<label x="220.98" y="154.94" size="1.778" layer="95"/>
-</segment>
 <segment>
 <wire x1="106.68" y1="121.92" x2="96.52" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="121.92" x2="96.52" y2="124.46" width="0.1524" layer="91"/>
