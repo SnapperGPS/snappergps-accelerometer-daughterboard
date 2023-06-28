@@ -4963,7 +4963,7 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </libraries>
 <attributes>
 <attribute name="COMPANY" value=""/>
-<attribute name="DRAWN" value="KTOWN"/>
+<attribute name="DRAWN" value=""/>
 <attribute name="REV" value="A"/>
 </attributes>
 <variantdefs>
