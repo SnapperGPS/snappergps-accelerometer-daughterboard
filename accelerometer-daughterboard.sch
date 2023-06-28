@@ -8077,17 +8077,17 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <wire x1="119.38" y1="63.5" x2="127" y2="63.5" width="0.1524" layer="91"/>
 <label x="121.92" y="63.5" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="4"/>
+<wire x1="104.14" y1="109.22" x2="104.14" y2="96.52" width="0.1524" layer="91"/>
+<label x="104.14" y="96.52" size="1.778" layer="95" rot="R90"/>
+</segment>
 </net>
 <net name="SAO" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="SDO"/>
 <wire x1="104.14" y1="48.26" x2="104.14" y2="33.02" width="0.1524" layer="91"/>
 <label x="104.14" y="33.02" size="1.778" layer="95" rot="R90"/>
-</segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="4"/>
-<wire x1="104.14" y1="109.22" x2="104.14" y2="96.52" width="0.1524" layer="91"/>
-<label x="104.14" y="96.52" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="ADC1" class="0">
