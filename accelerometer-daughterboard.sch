@@ -209,6 +209,34 @@
 &lt;p&gt;THIS SOFTWARE IS PROVIDED ''AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE INSTITUTE OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,  BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 &lt;/p&gt;</description>
 <packages>
+
+<package name="0603-NO">
+<wire x1="-1.473" y1="0.729" x2="1.473" y2="0.729" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="0.729" x2="1.473" y2="-0.729" width="0.0508" layer="39"/>
+<wire x1="1.473" y1="-0.729" x2="-1.473" y2="-0.729" width="0.0508" layer="39"/>
+<wire x1="-1.473" y1="-0.729" x2="-1.473" y2="0.729" width="0.0508" layer="39"/>
+<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
+<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
+<smd name="1" x="-0.85" y="0" dx="1.075" dy="1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1.075" dy="1" layer="1"/>
+<text x="1.778" y="-0.127" size="0.8128" layer="25" font="vector" ratio="18">&gt;NAME</text>
+<text x="1.778" y="-0.762" size="0.4064" layer="27" font="vector" ratio="10">&gt;VALUE</text>
+<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
+<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+<wire x1="0" y1="0.4" x2="0" y2="-0.4" width="0.3048" layer="21"/>
+</package>
+<package name="0805-NO">
+<wire x1="-0.381" y1="0.66" x2="0.381" y2="0.66" width="0.1016" layer="51"/>
+<wire x1="-0.356" y1="-0.66" x2="0.381" y2="-0.66" width="0.1016" layer="51"/>
+<smd name="1" x="-0.95" y="0" dx="1.24" dy="1.5" layer="1"/>
+<smd name="2" x="0.95" y="0" dx="1.24" dy="1.5" layer="1"/>
+<text x="2.032" y="-0.127" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
+<text x="2.032" y="-0.762" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
+<rectangle x1="-1.0922" y1="-0.7239" x2="-0.3421" y2="0.7262" layer="51"/>
+<rectangle x1="0.3556" y1="-0.7239" x2="1.1057" y2="0.7262" layer="51"/>
+<wire x1="0" y1="0.508" x2="0" y2="-0.508" width="0.3048" layer="21"/>
+</package>
 <package name="LGA16_3X3MM">
 <wire x1="-1.5" y1="1.5" x2="1.5" y2="1.5" width="0.0508" layer="51"/>
 <wire x1="1.5" y1="1.5" x2="1.5" y2="-1.5" width="0.0508" layer="51"/>
@@ -248,6 +276,16 @@
 <wire x1="-1.27" y1="0" x2="1.27" y2="0" width="0.254" layer="94"/>
 <text x="-1.524" y="-2.54" size="1.27" layer="96">&gt;VALUE</text>
 <pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+</symbol>
+<symbol name="CAPACITOR">
+<wire x1="0" y1="0.762" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.778" width="0.1524" layer="94"/>
+<text x="-2.29" y="1.25" size="1.27" layer="95" font="vector" rot="R90" align="center">&gt;NAME</text>
+<text x="2.3" y="1.25" size="1.27" layer="96" font="vector" rot="R90" align="center">&gt;VALUE</text>
+<rectangle x1="-1.27" y1="0.508" x2="1.27" y2="1.016" layer="94"/>
+<rectangle x1="-1.27" y1="1.524" x2="1.27" y2="2.032" layer="94"/>
+<pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<pin name="2" x="0" y="-2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 </symbol>
 <symbol name="3.3V">
 <wire x1="-1.27" y1="-1.27" x2="0" y2="0" width="0.254" layer="94"/>
@@ -3236,6 +3274,47 @@
 </gates>
 <devices>
 <device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CAP_CERAMIC" prefix="C" uservalue="yes">
+<description>&lt;p&gt;&lt;b&gt;Ceramic Capacitors&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;For new designs, use the packages preceded by an '_' character since they are more reliable:&lt;/p&gt;
+&lt;p&gt;The following footprints should be used on most boards:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;_0402&lt;/b&gt; - Standard footprint for regular board layouts&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;_0603&lt;/b&gt; - Standard footprint for regular board layouts&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;_0805&lt;/b&gt; - Standard footprint for regular board layouts&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;_1206&lt;/b&gt; - Standard footprint for regular board layouts&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For extremely tight-pitch boards where space is at a premium, the following 'micro-pitch' footprints can be used (smaller pads, no silkscreen outline, etc.):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;_0402MP&lt;/b&gt; - Micro-pitch footprint for very dense/compact boards&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;_0603MP&lt;/b&gt; - Micro-pitch footprint for very dense/compact boards&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;_0805MP&lt;/b&gt; - Micro-pitch footprint for very dense/compact boards&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;_1206MP&lt;/b&gt; - Micro-pitch footprint for very dense/compact boards&lt;/li&gt;
+&lt;/ul&gt;</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="0805-NOOUTLINE" package="0805-NO">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0603_NO" package="0603-NO">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -7873,6 +7952,8 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 </class>
 </classes>
 <parts>
+<part name="C3" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="10uF"/>
+<part name="C1" library="microbuilder" deviceset="CAP_CERAMIC" device="0603_NO" value="0.1uF"/>
 <part name="U$7" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="U$24" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="U$18" library="microbuilder" deviceset="FRAME_A4_ADAFRUIT" device=""/>
@@ -7921,6 +8002,14 @@ Source: http://www.mouser.com/ds/2/392/products_18-2245.pdf</description>
 <attribute name="DRAWING_NAME" x="171.45" y="15.24" size="2.54" layer="94" font="vector"/>
 <attribute name="LAST_DATE_TIME" x="171.45" y="10.16" size="2.286" layer="94" font="vector"/>
 <attribute name="SHEET" x="230.505" y="10.16" size="2.54" layer="94" font="vector"/>
+</instance>
+<instance part="C3" gate="G$1" x="50.8" y="154.94" smashed="yes">
+<attribute name="NAME" x="48.51" y="156.19" size="1.27" layer="95" font="vector" rot="R90" align="center"/>
+<attribute name="VALUE" x="53.1" y="156.19" size="1.27" layer="96" font="vector" rot="R90" align="center"/>
+</instance>
+<instance part="C1" gate="G$1" x="60.96" y="154.94" smashed="yes">
+<attribute name="NAME" x="58.67" y="156.19" size="1.27" layer="95" font="vector" rot="R90" align="center"/>
+<attribute name="VALUE" x="63.26" y="156.19" size="1.27" layer="96" font="vector" rot="R90" align="center"/>
 </instance>
 <instance part="U$7" gate="G$1" x="165.1" y="170.18" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="166.624" y="171.196" size="1.27" layer="96" rot="MR0"/>
