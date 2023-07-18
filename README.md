@@ -16,8 +16,8 @@ Accelerometer daughterboard for a basic SnapperGPS receiver.
 
 ## Files
 
-* `SnapperGPS-Accelerometer.brd`: PCB layout file for the daughterboard. Created with Autodesk Eagle.
-* `SnapperGPS-Accelerometer.sch`: Schematic file for the daughterboard. Created with Autodesk Eagle.
+* `accelerometer-daughterboard.brd`: PCB layout file for the daughterboard. Created with Autodesk Eagle.
+* `accelerometer-daughterboard`: Schematic file for the daughterboard. Created with Autodesk Eagle.
 * `CAMOutputs`: Gerber files and drill file for manufacturing the daughterboard.
 
 ## Manufacturing
