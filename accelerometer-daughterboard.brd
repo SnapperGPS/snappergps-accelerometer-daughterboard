@@ -55,7 +55,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
@@ -202,7 +202,6 @@
 <text x="8.805309375" y="11.41266875" size="1.016" layer="22" font="vector" ratio="14" rot="MR0" align="center">VDD</text>
 <text x="8.7145375" y="16.507615625" size="1.016" layer="22" font="vector" ratio="14" rot="MR0" align="center">SCL</text>
 <text x="8.8252" y="19.05754375" size="1.016" layer="22" font="vector" ratio="14" rot="MR0" align="center">SDA</text>
-<dimension x1="17.78" y1="13.208" x2="0" y2="12.319" x3="8.89" y3="12.7635" textsize="1.778" layer="47" dtype="vertical" unit="inch"/>
 <text x="8.218346875" y="19.419703125" size="1.27" layer="21" font="vector" ratio="20" rot="R180">Y</text>
 <text x="8.117234375" y="19.67116875" size="1.27" layer="21" font="vector" ratio="20">X</text>
 <text x="9.1028625" y="17.140884375" size="1.27" layer="21" font="vector" ratio="20">Z</text>
