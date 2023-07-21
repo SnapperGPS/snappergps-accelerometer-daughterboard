@@ -46,11 +46,10 @@ The pads labeled `VDD` shall align.
 
 ## Flashing
 
-* Download the `SnapperGPS-Accelerometer` firmware from [GitHub](https://github.com/SnapperGPS/snappergps-firmware/releases).
 * Go to [https://snappergps.info/flash](https://snappergps.info/flash).
 * Connect the SnapperGPS receiver to your computer via USB.
 * Pair the SnapperGPS receiver.
-* Select the `SnapperGPS-Accelerometer` firmware file.
+* Select the `SnapperGPS-Accelerometer` firmware.
 * Flash the firmware.
 
 ## Usage
